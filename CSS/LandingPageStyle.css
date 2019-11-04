@@ -1,14 +1,14 @@
 body {margin: 0;}
-.front_page
+.landing_page
 {
     position: relative;
 }
-.front_page h1 
+.landing_page h1 
 {
     font-size: 5em; 
     margin: 0 0 .2em 0;
 }
-.front_page h2 
+.landing_page h2 
 {
     font-size: 3.5em; 
     margin: 0;
@@ -21,7 +21,7 @@ body {margin: 0;}
     width: 100%;
     background-size: cover;
 }
-.front_page header
+.landing_page header
 {
     position: absolute;
     z-index: 2;
