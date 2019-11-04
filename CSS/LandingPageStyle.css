@@ -1,0 +1,36 @@
+body {margin: 0;}
+.front_page
+{
+    position: relative;
+}
+.front_page h1 
+{
+    font-size: 5em; 
+    margin: 0 0 .2em 0;
+}
+.front_page h2 
+{
+    font-size: 3.5em; 
+    margin: 0;
+}
+#image1, #image2, #image3
+{
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+.front_page header
+{
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgba(47, 48, 47, 0.6);
+}
