@@ -1,0 +1,15 @@
+#navigationBar nav{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+}
+
+#navigationBar ul{ display: block; }
+
+#navigationBar li{
+    padding: 1em 1em;
+    display: inline-block;
+}
+
+#navigationBar li:first-child { float: left; }
+#navigationBar li { float: right; }

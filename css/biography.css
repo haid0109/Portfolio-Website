@@ -1,15 +1,15 @@
-.biography{
+#biography{
     position: relative;
     height: 80vh;
     width: 99%;
     margin-top: 12vh;
     margin-bottom: 8vh;
 }
-.biography h2{
+#biography h2{
     font-size:4em;
     font-family: 'Roboto', sans-serif;
 }
-.biography p{
+#biography p{
     font-size:1.8em;
     font-family: 'Roboto', sans-serif;
 }
