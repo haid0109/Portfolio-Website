@@ -4,55 +4,64 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Portfolio</title>
-        <meta name="description" content="My Portfolio">
+        <meta name="description" content="Portfolio Website">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/Bootstrap/bootstrap.min.css">
-        <link rel="stylesheet" href="css/navigationBar.css">
-        <link rel="stylesheet" href="css/LandingPageStyle.css">
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/landingPage.css">
         <link rel="stylesheet" href="css/biography.css">
     </head>
     <body>
     <body>
-        <div class="flex_container">
-            <div id="navigationBar">
-                <nav>
-                    <ul>
-                        <li><a href="#landing_page">Haidar</a></li>
-                        <li><a href="#biography">Om Mig</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <div id="navigation_bar"></div>
+            <nav class="navbar transparent navbar-expand-md navbar-dark fixed-top">
+                <a href="#" class="navbar-brand">dasdasdasda</a>
 
-            <div id="landing_page">
-                <header>
-                    <div class="row">
-                        <h1 class="col-sm-24">Haidar Al-Majedi</h1>
-                    </div>
-                    <div class="row">
-                        <h2 class="col-sm-24">Full Stack Developer</h2>
-                    </div>
-                </header>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar_menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar_menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="#" class="nav-link">Om Mig</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Uddannelse</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Kompetencer</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Erfaring</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Projekter</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Kontakt</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        
+        <div id="landing_page">
+            <div class="landing_page_title">
+                <h1>Haidar Al-Majedi</h1>
+                <h2>Fullstack Developer</h2>
             </div>
-            
-            <div id="biography">
+        </div>
+
+        <div id="biography">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-3"></div>
-                    <div class="col-sm-8" align="center">
-                            <img src="images/background9.jpg" width="100%">
-                    </div>
                     <div class="col-sm-1"></div>
-                    <div class="col-sm-9" align="center">
-                        <div align="left">
-                            <h2>Om Mig</h2>
-                            <p>Hej, mit navn er Haidar, jeg er 18 år gammel og går på TEC Ballerup. Lige i øjeblikket er jeg i gang med at studere Data- og Kommunikationsuddannelsen på EUX. Mit drømmejob er at blive Datatekniker(programmør) så jeg kan arbejde med computersoftware og programmering. I min fritid, kan jeg godt lide at slappe af ved at spille videospil, se film eller starte på en ny tv-serie. Der er ikke nogen sport som jeg konkret interesserer mig for, men jeg kan godt lide at træne i fitnesscenter og har ellers et fitness medlemskab hos Fitness World Tagensvej.</p>
-                        </div>
+
+                    <div class="col-sm-5">
+                        <img src="images/background9.jpg" width="525px">
                     </div>
-                    <div class="col-sm-3"></div>
+
+                    <div class="col-sm-5">
+                        <h2>Om Mig</h2>
+                        <p>Hej, mit navn er Haidar, jeg er 18 år gammel og går på TEC Ballerup. Lige i øjeblikket er jeg i gang med at studere Data- og Kommunikationsuddannelsen på EUX. Mit drømmejob er at blive Datatekniker(programmør) så jeg kan arbejde med computersoftware og programmering. I min fritid, kan jeg godt lide at slappe af ved at spille videospil, se film eller starte på en ny tv-serie. Der er ikke nogen sport som jeg konkret interesserer mig for, men jeg kan godt lide at træne i fitnesscenter og har ellers et fitness medlemskab hos Fitness World Tagensvej.</p>    
+                    </div>
+
+                    <div class="col-sm-1"></div>
                 </div>
             </div>
         </div>
-        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/4.3.1/bootstrap.min.js"></script>
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="js/navigationBar.js"></script>
     </body>
 </html>
