@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     display: table;
+    background-color: white;
 }
 #biography .container{
     display: table-cell;
@@ -11,6 +12,7 @@
 }
 #biography img{
     max-width: 100%;
+    margin-right: 2em;
 }
 #biography .container h2, p{
     text-align: left;
@@ -23,3 +25,4 @@
     font-size: 1.65vw;
     font-family: 'Roboto', sans-serif;
 }
+@media only screen and (max-width: 768px){ #biography img{ margin-right: 0; } }

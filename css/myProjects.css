@@ -1,0 +1,43 @@
+#myProjects{
+    position: relative;
+    height: 100%;
+    width: 99%;
+    display: table;
+    background: white;
+}
+#myProjects h2{
+    font-size: 3.8vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0.8em auto 0.5em auto;
+}
+#myProjects p{
+    font-size: 1.3vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto auto 2em auto;
+}
+
+#myProjects .row a{
+    height: 400px;
+    width: 100%;
+    margin: 2em 0em 0em 0em;
+    padding: 0em 0em 0em 2em;
+}
+#myProjects img{
+    height: 100%;
+    width: 100%;
+}
+#myProjects span{
+    font-size: 1vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: auto auto auto 1em;
+}
+#myProjects img:hover{ opacity: 0.5; }
+@media screen and (max-width: 600px)
+{ 
+    #myProjects{ width: 97%; }
+    #myProjects img { padding: 1em 1em 1em 2em; } 
+    #myProjects span{ display: none; }
+}
