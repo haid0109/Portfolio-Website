@@ -35,9 +35,7 @@
     margin: auto auto auto 1em;
 }
 #myProjects img:hover{ opacity: 0.5; }
-@media screen and (max-width: 600px)
-{ 
-    #myProjects{ width: 97%; }
-    #myProjects img { padding: 1em 1em 1em 2em; } 
-    #myProjects span{ display: none; }
-}
+
+@media screen and (max-width: 1401px) { #myProjects img { margin: 0em 0em 0em -0.5em; } }
+@media screen and (max-width: 767px) { #myProjects span{ display: none; } }
+@media screen and (max-width: 600px) { #myProjects{ width: 96%; } }
