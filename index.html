@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,18 +51,18 @@
         <div id="biography">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-1"></div>
+                    <div class="col-md-1"></div>
 
-                    <div class="col-sm-5">
+                    <div class="col-md-5">
                         <img src="images/Profilbillede.png" width="525px">
                     </div>
 
-                    <div class="col-sm-5">
+                    <div class="col-md-5">
                         <h2>Om Mig</h2>
                         <p>Hej, mit navn er Haidar, jeg er 19 år gammel og går på TEC Ballerup. Lige i øjeblikket er jeg i gang med at studere Data- og Kommunikationsuddannelsen på EUX. Mit drømmejob er at blive Datatekniker(programmør) så jeg kan arbejde med computersoftware og programmering. I min fritid, kan jeg godt lide at slappe af ved at spille videospil, se film eller starte på en ny tv-serie. Der er ikke nogen sport som jeg konkret interesserer mig for, men jeg kan godt lide at træne i fitnesscenter og har ellers et fitness medlemskab hos Fitness World Tagensvej.</p>    
                     </div>
 
-                    <div class="col-sm-1"></div>
+                    <div class="col-md-1"></div>
                 </div>
             </div>
         </div>
@@ -93,14 +93,14 @@
         <div id="skills">
             <h2>Kompetencer</h2>
             <div class="row">
-                <div class="col-sm-2"></div>
+                <div class="col-md-2"></div>
                 
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <h3>Mine Kompetencer</h3>
                     <p>Hvis vi skal tale om mine programmerings egenskaber, så har jeg haft to års erfaring med C#, og har derfor stor viden indenfor grundlæggende og objektorienteret C#. HTML, CSS JavaScript og MS SQL har jeg cirka haft et års erfaring med, som har givet mig det grundlæggende basis for at kunne lave hjemmesider og databaser. Jeg har haft cirka et halvt års erfaring med Windows server 2012, og hvordan det er at administrere et operativsystem såsom Windows 7 eller 10. Jeg har haft et par ugers erfaring med C++ i form af Arduino robot programmering og med Python i form af Sense HAT programmering på en Raspberry Pi, Rasbian operativsystem. En af mine mindre mærkværdige kompetencer, men alligevel en stor præstation, er at jeg altid møder til tiden og at jeg faktisk har haft 0% fravær i snart to år.</p>    
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-md-4">
                     <span class="skillTitle">.NET</span><span class="skillPercentage">75%</span>
                     <div class="container">
                         <div class="blank">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
 
-                <div class="col-sm-2"></div>
+                <div class="col-md-2"></div>
             </div>
         </div>
 
@@ -206,19 +206,47 @@
         <div id="contact">
             <h2>Kontakt Mig</h2>
             <p>Du kan komme i kontakt med mig, ved at sende en besked til min arbejdsmail<br />på <a href='mailto:haidar@haidar.dk' style="text-decoration: none;">haidar@haidar.dk</a>, eller ved at bruge kontaktformen nedenfor.</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-10">
+                        <form role="form" method="post" id="reused_form" >
+                            <div class="form-group row">
+                                <div class="col-md-6">
+                                    <label for="name"> Navn:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required maxlength="50">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="email"> Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required maxlength="50">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="name"> Besked:</label>
+                                <textarea class="form-control" type="textarea" name="message" id="message" maxlength="6000" rows="12"></textarea>
+                            </div>
+                            <div class="button-holder">
+                                <button type="submit" class="btn btn-lg btn-success" id="btnContactUs">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
         </div>
 
         <div id="footer">
-            <a href="mailto:haidar@haidar.dk"><i class="fa fa-envelope fa-2x" style="margin-top: 0.5em; margin-left: -1.5em; color: rgb(119, 119, 119);"></i></a>
+            <a href="mailto:haidar@haidar.dk"><i class="fa fa-envelope fa-2x" style="margin-top: 0.5em; color: rgb(119, 119, 119);"></i></a>
             <a href="https://www.linkedin.com/in/haid0109" target="blank"><i class="fa fa-linkedin fa-2x" style="margin-top: 0.5em; margin-left: 0.5em; color: rgb(119, 119, 119);"></i></a>
             <a href="https://www.github.com/haid0109" target="blank"><i class="fa fa-github fa-2x" style="margin-top: 0.5em; margin-left: 0.5em; color: rgb(119, 119, 119);"></i></a>
             <a href="files/CV.pdf" target="blank"><i class="fa fa-file fa-2x" style="margin-top: 0.5em; margin-left: 0.5em; color: rgb(119, 119, 119);"></i></a>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="js/navigationBar.js"></script>
         <script src="js/education-experience.js"></script>
+        <script src="form.js"></script>
     </body>
 </html>
